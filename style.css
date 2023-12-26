@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 100%;
+    height: 100vh;
+    background-color: #fce694;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('https://static.vecteezy.com/system/resources/thumbnails/000/691/499/small/rock-paper-scissors-seamless-pattern.png');
+    /* background-size: cover;  */
+    /* background-repeat: no-repeat; */
+    background-position: center;
+   
+}
+main{
+    flex: 1;
+}
+
+header{
+    /* background-color: #373737; */
+    background-color: #473198;
+    text-align: center;
+    color: whitesmoke;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5vmin;
+    border-bottom: 2px solid #29335c;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+.container{
+    /* background-color: red; */
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vmin;
+    width: 100%;
+}
+.option-box{
+    width:20vmin ;
+    height: 20vmin;
+    border-radius: 100%;
+    border-style: none;
+    border: 10px solid #29335c;
+    box-shadow:0px 10px 20px #29335c;
+    ;
+      
+}
+
+.option-box:hover{
+    /* opacity: 0.5; */
+    border: 5px solid rgb(191, 62, 19);
+
+}
+#scorecard{
+    text-align: center;
+    font-size: 4vmin;
+}
+#rock{
+    /* Set background image */
+    background-image: url('https://media.istockphoto.com/id/1194426164/photo/womans-hand-fist-from-hole-yellow-background.jpg?s=612x612&w=0&k=20&c=hOWnvUXK7tJQrcx5aTHUo7hGbX1h816D0QY0H7mdO2o=');
+    background-size: cover; /* Adjust this property as needed */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#paper{
+    /* Set background image */
+    background-image: url('https://us.123rf.com/450wm/vpanteon/vpanteon2003/vpanteon200300015/143950226-hand-up-showing-five-count-gesture-five-fingers-open-palm-female-black-hand-isolated-3d-rendering.jpg?ver=6');
+    background-size: cover; /* Adjust this property as needed */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#scissor{
+    /* Set background image */
+    background-image: url('https://us.123rf.com/450wm/margoalexa/margoalexa2310/margoalexa231001617/215870360-gesture-of-a-womans-hand-on-a-colored-background.jpg?ver=6');
+    background-size: cover; /* Adjust this property as needed */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: purple; */
+    width: 100%;
+    height: 10vmin;
+    gap: 2vmin;
+    font-size: 2.5vmin;
+
+}
+.scorecard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 2vmin;
+    border: 2px solid #29335c;
+    background-color: rgb(241, 222, 20);
+    background-color: white;
+    /* color: wheat; */
+
+}
+.result{
+    background-color: pink;
+    height: 10vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vmin;
+    font-size: 3.5vmin;
+    width: fit-content;
+    margin: auto;
+    /* left: 25%; */
+    padding: 0 5vmin;
+    margin-top: 10vmin;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-weight: bold;
+}
+footer{
+    background-color: #ffec6d;
+    height: 10vmin;
+    border-top: 2px solid #29335c;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1vmin;
+    justify-content: center;
+    align-items: center;
+    
+}
+footer i,p{
+    font-size: 2.2vmin;
+    font-weight: bold;
+    color: #302067;
+}
+footer i{
+    font-size: 3.5vmin;
+}
